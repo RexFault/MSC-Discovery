@@ -75,5 +75,21 @@ namespace MSC_Discovery
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://rexfault.net");
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://rexfault.net");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, MouseEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://rexfault.net");
+        }
     }
 }
